@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+header {
+  background-image: url(../images/graduates.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+  position: sticky;
+  top: 0;
+  color: #fff;
+  background: #16044277;
+  cursor: pointer;
+  z-index: 100;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+li a:hover {
+  color: #210d4b;
+  background: #fff;
+  padding: 1.7rem;
+}
+
+.header-content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background: #16044277;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 1rem 2rem;
+  line-height: 1.6;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+
+.left-side h3 {
+  text-align: center;
+  background: red;
+  padding: 1rem;
+  color: #fff;
+}
+
+.right-side img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  font-weight: 500;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  background: #16044277;
+  transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+  background: #160442;
+  margin-top: 1rem;
+  border: 1px solid tomato;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 3rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.links i {
+  color: red;
+  font-size: 2rem;
+}
+
+.links ~ p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1.2rem;
+}
+
+.posts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0 0 0;
+}
+
+.contents h5 {
+  margin: 0 0 0.3rem 0;
+}
+
+.blog-contents {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+p {
+  text-align: justify;
+  margin: 13px;
+}
+
+/* comments */
+.comments {
+  margin: 3rem 0 0 0;
+  padding: 1.2rem;
+  border: 1px solid #160442;
+  border-radius: 8px;
+}
+
+.comments h3 {
+  margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+input {
+  background: #88888858;
+  border-radius: 4px;
+  padding: 0.8rem 0.7rem;
+  font-size: 1.2rem;
+  border: none;
+}
+
+input:focus {
+  border: 1px solid #160442;
+  outline: 2px solid #160442;
+}
+
+textarea {
+  resize: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 0.5rem;
+  font-weight: 500;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  background: #16044277;
+  transition: all 0.3s ease-out;
+  width: 20%;
+}
+
+.btn:hover {
+  background: #160442;
+  margin-top: 1rem;
+}
